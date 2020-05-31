@@ -40,8 +40,10 @@
 
           {% block socials %}
           <div class="uk-navbar-item">
-            <a class="uk-visible@s" style="margin-right: 4px;" href="#" uk-icon="icon: facebook; ratio: 2.0"></a>
-            <a class="uk-visible@s" style="margin-right: 4px;" href="#" uk-icon="icon: youtube; ratio: 2.0"></a>
+            <a class="uk-visible@s" style="margin-right: 4px;" href="https://www.facebook.com/ohahlev"
+              uk-icon="icon: facebook; ratio: 2.0"></a>
+            <a class="uk-visible@s" style="margin-right: 4px;"
+              href="https://www.youtube.com/channel/UCW5ecqlRPhjLMramP3HnZjQ" uk-icon="icon: youtube; ratio: 2.0"></a>
             <a class="uk-navbar-toggle uk-hidden@m" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
           </div>
           {% endblock %}
@@ -49,9 +51,9 @@
 
         {% block brand %}
         <div class="uk-navbar-center nav-overlay">
-          <a class="uk-navbar-item uk-logo" href="#" title="Logo"><img src="img/n-logo.png" alt="Logo"></a>
+          <a class="uk-navbar-item uk-logo" href="/admin" title="Logo"><img src="{% static 'uikit/img/logo.png' %}" alt="Logo"></a>
         </div>
-        {% endblock%}
+        {% endblock %}
 
         <div class="uk-navbar-right nav-overlay uk-visible@m">
           <ul class="uk-navbar-nav">
@@ -133,7 +135,8 @@
             <li class="uk-parent">
               <a href="{{ app.app_url }}" class="uk-text-uppercase">
                 <span class="uk-margin-small-right uk-icon" data-uk-icon="icon: thumbnails">
-                  <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="thumbnails">
+                  <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                    data-svg="thumbnails">
                     <rect fill="none" stroke="#000" x="3.5" y="3.5" width="5" height="5"></rect>
                     <rect fill="none" stroke="#000" x="11.5" y="3.5" width="5" height="5"></rect>
                     <rect fill="none" stroke="#000" x="11.5" y="11.5" width="5" height="5"></rect>
@@ -141,13 +144,14 @@
                   </svg>
                 </span>
                 {{ app.app_label}}</a>
-              
+
               <ul class="uk-nav-sub">
                 {% for model in app.models %}
                 <li>
                   <a href="{{ model.admin_url }}">
                     <span class="uk-margin-small-right uk-icon" data-uk-icon="icon: thumbnails">
-                      <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="thumbnails">
+                      <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                        data-svg="thumbnails">
                         <rect fill="none" stroke="#000" x="3.5" y="3.5" width="5" height="5"></rect>
                         <rect fill="none" stroke="#000" x="11.5" y="3.5" width="5" height="5"></rect>
                         <rect fill="none" stroke="#000" x="11.5" y="11.5" width="5" height="5"></rect>
@@ -166,7 +170,8 @@
             <li>
               <a href="{% url 'admin:password_change' %}" class="uk-text-uppercase">
                 <span class="uk-margin-small-right uk-icon" data-uk-icon="icon: thumbnails">
-                  <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="thumbnails">
+                  <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                    data-svg="thumbnails">
                     <rect fill="none" stroke="#000" x="3.5" y="3.5" width="5" height="5"></rect>
                     <rect fill="none" stroke="#000" x="11.5" y="3.5" width="5" height="5"></rect>
                     <rect fill="none" stroke="#000" x="11.5" y="11.5" width="5" height="5"></rect>
@@ -178,7 +183,8 @@
             <li>
               <a href="{% url 'admin:logout' %}" class="uk-text-uppercase">
                 <span class="uk-margin-small-right uk-icon" data-uk-icon="icon: thumbnails">
-                  <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="thumbnails">
+                  <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                    data-svg="thumbnails">
                     <rect fill="none" stroke="#000" x="3.5" y="3.5" width="5" height="5"></rect>
                     <rect fill="none" stroke="#000" x="11.5" y="3.5" width="5" height="5"></rect>
                     <rect fill="none" stroke="#000" x="11.5" y="11.5" width="5" height="5"></rect>
