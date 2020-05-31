@@ -23,7 +23,7 @@ cd into project directory
 
 install ahlev_django_uikit from the project directory
 
-> pip install ../tmp/dist/ahlev_django_uikit-0.0.1.tar.gz
+> pip install ../ahlev_django_uikit/dist/ahlev_django_uikit-0.0.1.tar.gz
 
 
 ## install from pypi
