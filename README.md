@@ -8,9 +8,9 @@
 
 > git clone https://github.com/ohahlev/ahlev_django_uikit.git
 
-### go to directory tmp
+### go to directory ahlev_django_uikit
 
-> cd tmp
+> cd ahlev_django_uikit
 
 ### create installer package
 
