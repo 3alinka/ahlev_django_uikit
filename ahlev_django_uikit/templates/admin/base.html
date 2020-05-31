@@ -38,11 +38,13 @@
       <nav id="navbar" data-uk-navbar="mode: click;">
         <div class="uk-navbar-left nav-overlay">
 
+          {% block socials %}
           <div class="uk-navbar-item">
             <a class="uk-visible@s" style="margin-right: 4px;" href="#" uk-icon="icon: facebook; ratio: 2.0"></a>
-            <a class="uk-visible@s" style="margin-right: 4px" href="#" uk-icon="icon: youtube; ratio: 2.0"></a>
+            <a class="uk-visible@s" style="margin-right: 4px;" href="#" uk-icon="icon: youtube; ratio: 2.0"></a>
             <a class="uk-navbar-toggle uk-hidden@m" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
           </div>
+          {% endblock %}
         </div>
 
         {% block brand %}
@@ -58,7 +60,7 @@
                 data-uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
             </li>
             <li>
-              <a href="#">Profile</a>
+              <a href="#">{{user}}</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
                   {% if user.has_usable_password %}
