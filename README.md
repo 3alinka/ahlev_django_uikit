@@ -1,4 +1,4 @@
-# ahlev django APPLICATION
+# ahlev django uikit
 ![pypi](https://img.shields.io/pypi/v/ahlev_django_uikit) ![pypi](https://img.shields.io/pypi/status/ahlev_django_uikit)
 
 > Replace tmp with real application name
@@ -6,7 +6,7 @@
 ## install from this repository
 ### clone
 
-> git clone https://github.com/ohahlev/ahlev-django-uikit.git
+> git clone https://github.com/ohahlev/ahlev_django_uikit.git
 
 ### go to directory tmp
 
