@@ -1,7 +1,6 @@
 # ahlev django uikit
 ![pypi](https://img.shields.io/pypi/v/ahlev_django_uikit) ![pypi](https://img.shields.io/pypi/status/ahlev_django_uikit)
 
-> Replace tmp with real application name
 
 ## install from this repository
 ### clone
@@ -28,10 +27,10 @@ install ahlev_django_uikit from the project directory
 
 
 ## install from pypi
-[tmp](https://pypi.org/project/ahlev_django_uikit/)
+[ahlev_django_uikit](https://pypi.org/project/ahlev_django_uikit/)
 
 ## project configuration
-### add tmp app to settings.py
+### add ahlev_django_uikit to settings.py
 
     INSTALLED_APPS = [
       'ahlev_django_uikit',  # add this line
