@@ -60,3 +60,15 @@ install ahlev_django_uikit from the project directory
 
 
 ## screenshots
+### login
+![](screenshots/login.jpg)
+
+### dashboard
+![](screenshots/dashboard.png)
+
+### change password
+![](screenshots/change-password.png)
+
+### list users
+![](screenshots/list-users.png)
+
