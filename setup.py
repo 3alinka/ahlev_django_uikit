@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-__version__ = '0.0.1'
+__version__ = '0.0.1b'
 
 setup(
     name='ahlev_django_uikit',
@@ -12,7 +12,7 @@ setup(
     author='ahlev',
     author_email='ohahlev@gmail.com',
     include_package_data=True,
-    url='https://github.com/ohahlev/ahlev_django_uikit/tree/%s' % __version__,
+    url='https://github.com/ohahlev/ahlev_django_uikit',
     packages=find_packages(),
     install_requires=[
     ],
