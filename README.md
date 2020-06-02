@@ -34,7 +34,7 @@ install ahlev_django_uikit from the project directory
 
     INSTALLED_APPS = [
       'ahlev_django_uikit',  # add this line
-      'widget_tweaks',
+      'widget_tweaks',       # abd this line
       ...
     ]
 
