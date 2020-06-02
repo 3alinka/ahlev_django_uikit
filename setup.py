@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
-__version__ = '0.0.4'
+__version__ = '0.0.5'
 
 setup(
     name='ahlev_django_uikit',
@@ -15,6 +15,7 @@ setup(
     url='https://github.com/ohahlev/ahlev_django_uikit',
     packages=find_packages(),
     install_requires=[
+        'widget_tweaks'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
