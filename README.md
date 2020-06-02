@@ -1,4 +1,4 @@
-# ahlev django uikit
+# A uikit application
 ![pypi](https://img.shields.io/pypi/v/ahlev_django_uikit) ![pypi](https://img.shields.io/pypi/status/ahlev_django_uikit)
 
 
