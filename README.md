@@ -5,7 +5,7 @@
 ## install from this repository
 ### clone
 
-> git clone https://github.com/ohahlev/ahlev_django_uikit.git
+> git clone https://github.com/3alinka/ahlev_django_uikit.git
 
 ### go to directory ahlev_django_uikit
 
